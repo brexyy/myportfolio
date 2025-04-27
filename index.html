@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd2e835b47.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="IMAGES/logo5.png" class="logo4">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Graphic Artist / Frontend Developer</p>
+            <h1>Hi, I'm <span>Brent</span><br>Alvarez From Philippines</h1>
+        </div>
+        </div>
+    </div>
+   <!-----------about----------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES\POSTER FOR PORTFOLIO.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I work as a programmer and graphic designer in Calbayog City, the Philippines. 
+                        I want to incorporate the best aspects of both worlds into my works in order to provide the best
+                        Frontend products with excellent user experiences and scalable graphic design.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>App development</span><br>Building Android/ios apps</li>
+                            <li><span>Graphics Designing</span><br>Digital Art, Layout and Illustration</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developer</span><br>Wep app Development</li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 - 2025</span><br>Public Relations Officer (ASIT ORG)</li>
+                            <li><span>2024 - 2025</span><br>Graphic Artist and Developer (LHT MARKETING)</li>
+                            <li><span>2024 </span><br>SCUAA Region 8 Primer Artist</li>
+                            <li><span>2022 - 2023</span><br>Graphic Artist (CEA Creatives)</li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023 - 2025 </span><br>BS INFORMATION TECHNOLOGY from Nwssu</li>
+                            <li><span>2022 - 2023</span><br>BS Electronics Engineering from Nwssu</li>
+                            <li><span>2020 - 2022</span><br>STEM Student graduate From CCNHS</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ <!-----------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the process of planning, conceptualizing,
+                     and arranging content online. Today, designing a website
+                      goes beyond aesthetics to include the website's overall functionality. 
+                      Web design also includes web apps,
+                     mobile apps, and user interface (UI) design,
+                      and user experience (UX).</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>user interface (UI) refers to the interactivity, look,
+                     and feel of a product screen or web page, while user experience
+                      (UX) covers a user's overall experience with the product or website.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design is an ongoing process of creating user experience (UX) 
+                    and user interface (UI) elements for your application.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-object-group"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic design is a craft where professionals create visual content
+                     to communicate messages. By applying visual hierarchy and page layout
+                      techniques, designers use typography and pictures to meet users' 
+                      specific needs and focus on the logic of displaying elements in 
+                      interactive designs to optimize the user experience.</p>
+                    <a href="#">learn more</a>
+            </div>
+
+        </div>   
+    </div>
+</div>
+ <!-----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="IMAGES/WORK2.PNG">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>The app connects you to the people around the world.
+                        Download it from playstore or appstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/WORK3.PNG">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the people around the world.
+                        Download it from playstore or appstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/WORK4.PNG">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the people around the world.
+                        Download it from playstore or appstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/WORK4.PNG">
+                <div class="layer">
+                    <h3>Graphic Tees</h3>
+                    <p>The app connects you to the people around the world.
+                        Download it from playstore or appstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>       
+    </div>
+</div>
+
+ <!-----------contact----------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Brentalvarez2004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09066636160</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100069573385135"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.instagram.com/alvrz_brex/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/brex-alvarez-193080346/"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="IMAGES/Brent CV.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © 2024 Made by Brex Alvarez <i class="fa-solid fa-heart"></i>  . All Rights Reserved.</p>
+    </div>
+ </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyoTw2_Ieuhi562tU9ySEaa3LUTEQqQwA4OASejmhSXpAt5VjKaB7YCG3HTDtLjbll6lA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
